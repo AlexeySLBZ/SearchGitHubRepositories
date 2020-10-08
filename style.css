@@ -1,0 +1,84 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #c4c4c4;
+}
+ul {
+    padding-left: 0;
+}
+.list-box-element {
+
+    list-style-type: none;
+    background: #E3E3E3;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.list-box-element:hover {
+    background-color: aqua;
+}
+
+.container {
+    background-color: #e27beb;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    transition: top 5s;
+    padding: 0 8px;
+    padding-right: 0;
+    border-radius: 3px;
+    position: relative;
+    transition: top 5s;
+    top: 0px;
+}
+.commonElForInfo {
+    flex-basis: 50%;
+}
+.common {
+    font-size: 16px;
+}
+.icon {
+    flex-basis: 20%;
+    background-color: #e27beb;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.close {
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+.close:hover {
+    opacity: 1;
+}
+.close:before,
+.close:after {
+    position: absolute;
+    left: 30px;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: red;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.icon:active, .icon:hover, .icon:focus {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+}
+.animation {
+position: absolute;
+top: -1000px;
+
+}
+.wrapper-header {
+    display: flex;
+    justify-content: center;
+}
